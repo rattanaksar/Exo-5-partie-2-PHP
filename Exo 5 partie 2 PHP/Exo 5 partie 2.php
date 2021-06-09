@@ -9,6 +9,7 @@
 <body>
     <h1>Exo 5 : Les conditions</h1>
     <h4>Traduire ce code avec des if et des else : </h4>
+    <p>
     <?php
     $gender = "Femme";
 
@@ -18,5 +19,6 @@
         echo"C'est un développeur";
     }
     ?>
+    </p>
 </body>
 </html>
