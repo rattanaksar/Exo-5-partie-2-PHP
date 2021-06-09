@@ -12,13 +12,13 @@
     <p>
     <?php
     $isOK = true;
-    if ($isOK === true)
+    if ($isOK === false)
       {
-          echo 'C\'est ok';
+        echo 'C\'est pas bon';
       }
-      elseif ($isOK === false)
+      elseif ($isOK === true)
       {
-          echo 'C\'est pas bon';
+        echo 'C\'est OK';
       }
     ?>
     </p>
